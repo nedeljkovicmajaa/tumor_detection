@@ -32,8 +32,12 @@ masinsko_ucenje } detekcija tumora na MR i CT snimcima mozga CNNom
 
       Apstrakt
 
-            Otkrivanje tumora na mozgu vrlo je važan i težak zadatak, a glavni problem pojavljuje se kada govorimo o vremenu njegove detekcije. U ovom radu prikazan je pristup automatizacije ovog procesa, odnosno - osnovne tehnike za identifikaciju tumora na mozgu koje su zasnovane na karakteristikama istog. Korišćena je baza podataka sastavljena od slika različitih MR i CT snimaka mozga, iz različitih uglova i položaja. Problemu detekcije pristupano je na dva načina: detekcijom isključivo preko filtriranja fotografije i uz pomoć nadgledanog treniranja neuronske mreže.
-            Sve slike prolaze kroz različite tipove obrade, a algoritami rezultiraju pozicijom i veličinom tumora, gde se u poređenju sa labelama utvrđuje njihova tačnost, preciznost i odziv.
+            Otkrivanje tumora na mozgu vrlo je važan i težak zadatak, a glavni problem pojavljuje se kada govorimo o vremenu njegove detekcije. U ovom radu prikazan je pristup
+      automatizacije ovog procesa, odnosno - osnovne tehnike za identifikaciju tumora na mozgu koje su zasnovane na karakteristikama istog. Korišćena je baza podataka
+      sastavljena od slika različitih MR i CT snimaka mozga, iz različitih uglova i položaja. Problemu detekcije pristupano je na dva načina: detekcijom isključivo preko
+      filtriranja fotografije i uz pomoć nadgledanog treniranja neuronske mreže.
+            Sve slike prolaze kroz različite tipove obrade, a algoritami rezultiraju pozicijom i veličinom tumora, gde se u poređenju sa labelama utvrđuje njihova tačnost,
+      preciznost i odziv.
             Ključne reči - algoritam, slike magnetne rezonance i kompjuterske tomografije, filter, tačnost, preciznost, odziv. 
   
       Rezultati
@@ -42,4 +46,8 @@ masinsko_ucenje } detekcija tumora na MR i CT snimcima mozga CNNom
             Detektovanjem tumora pomoću MLa, dolazimo do sledećih rezultata: tačnosti t=91.8%, preciznosti p=90.1% i o=92.6%.
 
             Vidno bolje rezultate daje detekcija koncolucionim neuronskim mrežama.
-            Što se tačnosti tiče, ona je smanjena za 6.5%. Razlog za ovo redukovanje jeste činjenica da je pri normalnoj detekciji (prvi način detekcije), bilo slučajeva gde je ceo mozak detektovan kao tumor. U tom slučaju je zapravo registrovano 100% tumorskih polja (iako je bilo i onih koja to zapravo nisu), što je samo povećavalo procenat tačnosti. Preciznost je povećana za 16.8% dok je odziv povećan za 34%. Ovi odnosi rezultata nam govore da detekcija bez neuronskih mreža daje solidne rezultate, ali da oni nisu dovoljno precizni, kao i da dolazi do velikog broja prepoznavanja zdravih polja kao tumorskih. S druge strane, ovo se ne dešava u tolikoj meri pri detekcijom koja koristi CNN. 
+            Što se tačnosti tiče, ona je smanjena za 6.5%. Razlog za ovo redukovanje jeste činjenica da je pri normalnoj detekciji (prvi način detekcije), bilo slučajeva gde je
+      ceo mozak detektovan kao tumor. U tom slučaju je zapravo registrovano 100% tumorskih polja (iako je bilo i onih koja to zapravo nisu), što je samo povećavalo procenat
+      tačnosti. Preciznost je povećana za 16.8% dok je odziv povećan za 34%. Ovi odnosi rezultata nam govore da detekcija bez neuronskih mreža daje solidne rezultate, ali da
+      oni nisu dovoljno precizni, kao i da dolazi do velikog broja prepoznavanja zdravih polja kao tumorskih. S druge strane, ovo se ne dešava u tolikoj meri pri detekcijom koja
+      koristi CNN. 
