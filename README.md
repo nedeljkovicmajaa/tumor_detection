@@ -5,10 +5,11 @@ masinsko_ucenje } Tumor detection using CNN
 
       Abstract
    
-            Detecting a brain tumor is a very important and difficult task, and the main problem is detection time. This paper presents an approach to automating this process. Magnetic resonance and computed tomography of the brain (MR and CT scans) were used for processing, and this work aims to detect the tumor (to detect its size and position). 
-            The problem of detection is approached in two ways: by image processing and using supervised neural network (CNN). 
+            Detecting a brain tumor is a very important and difficult task, and the main problem is detection time. This paper presents an approach to automating this process.
+      Magnetic resonance and computed tomography of the brain (MR and CT scans) were used for processing, and this work aims to detect the tumor (to detect its size and 
+      position). The problem of detection is approached in two ways: by image processing and using supervised neural network (CNN). 
             All images go through different types of processing. The algorithms results are the position and size of the tumor. The results are compared to labels, and code 
-            is described by its accuracy, precision, and response.
+      is described by its accuracy, precision, and response.
             Key words - algorithm, MRI and CT scan, filters, accuracy, precision, response.
   
       Results
@@ -18,9 +19,9 @@ masinsko_ucenje } Tumor detection using CNN
 
             Detection of convolutional neural networks gives much better results.
             The accuracy has been reduced by 6.5%. The reason for this reduction is the fact that during the first method of detection, there were cases where the whole brain
-            was detected as a tumor. In that case, 100% of tumor fields were registered (although some were not), which only increased the percentage of accuracy. Accuracy
-            increased by 16.8% while response increased by 34%. These ratios of results tell us that detection without neural networks gives solid results, but that they are
-            not accurate enough, and that there is a large number of recognition of healthy fields as a tumor. On the other hand, this does not happen too much when using CNN.
+      was detected as a tumor. In that case, 100% of tumor fields were registered (although some were not), which only increased the percentage of accuracy. Accuracy increased
+      by 16.8% while response increased by 34%. These ratios of results tell us that detection without neural networks gives solid results, but that they are not accurate
+      enough, and that there is a large number of recognition of healthy fields as a tumor. On the other hand, this does not happen too much when using CNN.
 
 -------------------------------------------------------------------------------------------------------------------------
 
