@@ -1,8 +1,8 @@
-- English:
+- English:     
 
-rezultati } The results - images and graphics
-obrada_slike } Tumor detection using image processing     
-masinsko_ucenje } Tumor detection using CNN
+rezultati } The results - images and graphics     
+obrada_slike } Tumor detection using image processing          
+masinsko_ucenje } Tumor detection using CNN     
 
       Abstract
    
@@ -26,11 +26,11 @@ masinsko_ucenje } Tumor detection using CNN
 
 -------------------------------------------------------------------------------------------------------------------------
 
-- Srpski:
+- Srpski:     
 
-rezultati } slike i grafici
-obrada_slike } detekcija tumora na MR i CT snimcima mozga obradom slike      
-masinsko_ucenje } detekcija tumora na MR i CT snimcima mozga CNNom
+rezultati } slike i grafici     
+obrada_slike } detekcija tumora na MR i CT snimcima mozga obradom slike           
+masinsko_ucenje } detekcija tumora na MR i CT snimcima mozga CNNom     
 
       Apstrakt
 
