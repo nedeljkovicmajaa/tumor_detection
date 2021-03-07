@@ -3,13 +3,13 @@
 obrada_slike } Tumor detection using image processing     
 masinsko_ucenje } Tumor detection using CNN
 
-   Abstract
+      Abstract
    
 Detecting a brain tumor is a very important and difficult task, and the main problem is detection time. This paper presents an approach to automating this process. Magnetic resonance and computed tomography of the brain (MR and CT scans) were used for processing, and this work aims to detect the tumor (to detect its size and position). The problem of detection is approached in two ways: by image processing and using supervised neural network (CNN). 
 All images go through different types of processing. The algorithms results are the position and size of the tumor. The results are compared to labels, and code is described by its accuracy, precision, and response.
   Key words - algorithm, MRI and CT scan, filters, accuracy, precision, response.
   
-   Results
+      Results
   
 Tumor detection using image processing give the following results: accuracy t = 98.3%, accuracy p = 73.3%, and o = 58.6%.
 Tumor detection using image processing give the following results: accuracy t = 91.8%, accuracy p = 90.1% and o = 92.6%.
@@ -24,13 +24,13 @@ The accuracy has been reduced by 6.5%. The reason for this reduction is the fact
 obrada_slike } detekcija tumora na MR i CT snimcima mozga obradom slike      
 masinsko_ucenje } detekcija tumora na MR i CT snimcima mozga CNNom
 
-  Apstrakt
+      Apstrakt
 
 Otkrivanje tumora na mozgu vrlo je važan i težak zadatak, a glavni problem pojavljuje se kada govorimo o vremenu njegove detekcije. U ovom radu prikazan je pristup automatizacije ovog procesa, odnosno - osnovne tehnike za identifikaciju tumora na mozgu koje su zasnovane na karakteristikama istog. Korišćena je baza podataka sastavljena od slika različitih MR i CT snimaka mozga, iz različitih uglova i položaja. Problemu detekcije pristupano je na dva načina: detekcijom isključivo preko filtriranja fotografije i uz pomoć nadgledanog treniranja neuronske mreže.
 Sve slike prolaze kroz različite tipove obrade, a algoritami rezultiraju pozicijom i veličinom tumora, gde se u poređenju sa labelama utvrđuje njihova tačnost, preciznost i odziv.
   Ključne reči - algoritam, slike magnetne rezonance i kompjuterske tomografije, filter, tačnost, preciznost, odziv. 
   
-  Rezultati
+      Rezultati
   
 Detektovanjem tumora pomoću same obrade slike, dolazimo do sledećih rezultata: tačnosti t=98.3%, preciznosti p=73.3% i o=58.6%.
 Detektovanjem tumora pomoću MLa, dolazimo do sledećih rezultata: tačnosti t=91.8%, preciznosti p=90.1% i o=92.6%.
