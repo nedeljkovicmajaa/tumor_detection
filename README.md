@@ -24,7 +24,7 @@ masinsko_ucenje } Tumor detection using CNN
       by 16.8% while response increased by 34%. These ratios of results tell us that detection without neural networks gives solid results, but that they are not accurate
       enough, and that there is a large number of recognition of healthy fields as a tumor. On the other hand, this does not happen too much when using CNN.
 
--------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------- 
 
 - Srpski:     
 
