@@ -1,5 +1,6 @@
 tic
-save('C:\Users\Miöko\Desktop\baza\naseresenje\nasaresenja.mat'); 
+
+save('C:\Users\Mi≈°ko\Desktop\baza\naseresenje\nasaresenja.mat'); 
 p = 1;
 X = zeros(8,8,256*3049);
 for k=1:3049
@@ -31,5 +32,5 @@ for k=1:3049
         end
     end
 end
-%save(strcat('C:\Users\Miöko\Desktop\baza\naseresenje\nasaresenja.mat'), 'X');
+%save(strcat('C:\Users\Mi≈°ko\Desktop\baza\naseresenje\nasaresenja.mat'), 'X');
 toc
