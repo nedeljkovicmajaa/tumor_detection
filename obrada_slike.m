@@ -10,7 +10,6 @@ for k=11:11
     ivice = img2 - slika1;  
     
     slika2 = ivice + img2;
-    
 
     T = adaptthresh(img2);
     slika3 = slika2 > T;
