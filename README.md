@@ -53,3 +53,5 @@ masinsko_ucenje } detekcija tumora na MR i CT snimcima mozga CNNom
       tačnosti. Preciznost je povećana za 16.8% dok je odziv povećan za 34%. Ovi odnosi rezultata nam govore da detekcija bez neuronskih mreža daje solidne rezultate, ali da
       oni nisu dovoljno precizni, kao i da dolazi do velikog broja prepoznavanja zdravih polja kao tumorskih. S druge strane, ovo se ne dešava u tolikoj meri pri detekcijom koja
       koristi CNN. 
+
+![alt text](https://github.com/nedeljkovicmajaa/tumor_detection/blob/main/rezultati/primer_obrada_slike.png)
